@@ -2,38 +2,52 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 2rem;
     line-height: 1.5;
 }
 
 p {
-    color: gray;
+    color: #8f8f8f;
 }
 
 
-/* Class Selectors */
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+}
+
+.section-heading {
+    font-size: 3rem;
+}
+
+
+/* Containers */
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 
@@ -59,6 +73,14 @@ p {
 }
 
 
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
 /* Download Buttons */
 
 .download-button {
@@ -76,7 +98,6 @@ p {
 /* Feature Section */
 
 .feature-section {
-    text-align: center;
     padding: 3rem 5rem;
 }
 
@@ -96,8 +117,47 @@ p {
     margin: 1rem 0 1rem;
 }
 
-.feature-text {
-    color: #8f8f8f;
+#features {
+    position: relative;
+}
+
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 3rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
 }
 
 .testimonial-image {
@@ -106,47 +166,16 @@ p {
     margin: 20px;
 }
 
-.press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+.testimonial-text {
+    font-size: 3rem;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
 
-.pricing-column {
+/* Footer Section */
+
+.footer-icon {
     padding: 3% 2%;
-    text-align: center;
-}
-
-
-/* ID Selectors */
-
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-
-#features {
-    background-color: white;
-    position: relative;
-}
-
-#press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-#testimonials {
-    text-align: center;
-    background-color: #ef8172;
-    color: white;
-}
-
-#pricing {
-    padding: 100px;
+    font-size: 1.5rem;
 }
 
 
