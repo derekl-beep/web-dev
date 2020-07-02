@@ -3,6 +3,8 @@ This repository holds my web development projects / exercises
 
 ## 1 - Landing Page Project
 
+Preview: https://derekl-beep.github.io/web-dev/
+
 A responsive landing page for TinDog (an arbitrary app), inlcuding:
 - Title section
 - Navigation bar
@@ -20,8 +22,11 @@ Building from stratch, I made use of the following tools:
 - CSS 3
 - Boostrap 4
 
+## 2 - More to come!
+
+
 ### Reference:
-This project is a part of of the online course:
+These projects are parts of the online course:
 [The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) on Udemy.
 With previous programming experience, this course is very helpful for me to understand the web development tasks and the toolkit avaliable.
 The course introduces both the front-end and back-end development, with lots of hands-on practices. Topics include:
@@ -42,4 +47,3 @@ The course introduces both the front-end and back-end development, with lots of 
 
 Recommend to anyone who wants to start web dev.
 
-## 2 - More to come!
