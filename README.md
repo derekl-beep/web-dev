@@ -22,7 +22,13 @@ Building from stratch, I made use of the following tools:
 - CSS 3
 - Boostrap 4
 
-## 2 - More to come!
+## 2 - To-do List Web App
+
+This is under development.
+
+The goal is to create a to-do list as a single-page web application, using Node.js, Express.js, MongoDB and etc.
+
+## 3 - More to come!
 
 
 ### Reference:
@@ -43,7 +49,8 @@ The course introduces both the front-end and back-end development, with lots of 
 - NoSQL, MongoDB and Mongoose
 - Deployment
 - RESTful APIs
-- OAuth
+- OAuth 2.0
+- React.js
 
 Recommend to anyone who wants to start web dev.
 
