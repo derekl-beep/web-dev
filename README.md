@@ -24,10 +24,11 @@ Building from stratch, I made use of the following tools:
 
 ## 2 - To-do List Web App
 
+Preview: https://limitless-ridge-90511.herokuapp.com
+
 This is under development.
 
-The goal is to create a to-do list as a single-page web application, using Node.js, Express.js, MongoDB and etc.
-
+The is a to-do list as a single-page web application, using Node.js, Express.js, MongoDB and etc, and will be deployed to Heroku.
 ## 3 - More to come!
 
 
