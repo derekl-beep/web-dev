@@ -24,7 +24,7 @@ Building from stratch, I made use of the following tools:
 
 ## 2 - To-do List Web App
 
-Preview: https://limitless-ridge-90511.herokuapp.com
+Preview: https://derek-to-do-list.herokuapp.com
 
 This is under development.
 
