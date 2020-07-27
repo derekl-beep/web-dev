@@ -7,7 +7,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"))
 
-var items = ["Buy food", "Cook food", "Eat food"];
+var items = ["Welcome to my todolist :)", "Hit the + button to add a new item.", "Check the box for finished items."];
 
 app.get("/", function (req, res) {
   var today = new Date();
