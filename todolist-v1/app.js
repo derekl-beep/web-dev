@@ -1,44 +1,39 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const date = require(__dirname + "/date.js");
 
 const app = express();
 
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"))
+app.use(express.static("public"));
 
-var items = ["Welcome to my todolist :)", "Hit the + button to add a new item.", "Check the box for finished items."];
+const items = [
+  "Welcome to my todolist :)",
+  "Hit the + button to add a new item.",
+  "Check the box for finished items.",
+];
 
 app.get("/", function (req, res) {
-  var today = new Date();
-  var currentDay = today.getDay();
-
-  var options = {
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-  };
-
-  var day = today.toLocaleDateString("en-US", options);
-  
+  let day = date.getDate();
   res.render("list", { listTitle: day, newListItems: items });
 });
 
 app.post("/", function (req, res) {
-  var item = req.body.newItem;
+  let item = req.body.newItem;
   items.push(item);
 
   res.redirect("/");
 });
 
+app.get("/about", function (req, res) {
+  res.render("about");
+});
+
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 3000;
-};
-app.listen(port, function() {
+}
+app.listen(port, function () {
   console.log("Server started on port " + port + ".");
 });
-
-// app.listen(port, function () {
-//   console.log("Server started on port successfully.");
-// });
