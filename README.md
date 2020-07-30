@@ -25,10 +25,10 @@ Building from stratch, I made use of the following tools:
 ## 2 - To-do List Web App
 
 Preview: https://derek-to-do-list.herokuapp.com
-
-This is under development.
+(US server. Might take time to load.)
 
 The is a to-do list as a single-page web application, using Node.js, Express.js, MongoDB and etc, and will be deployed to Heroku.
+
 ## 3 - More to come!
 
 
